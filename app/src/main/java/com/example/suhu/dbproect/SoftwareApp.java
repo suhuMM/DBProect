@@ -1,6 +1,7 @@
 package com.example.suhu.dbproect;
 
-import android.app.Application;
+import org.litepal.LitePal;
+import org.litepal.LitePalApplication;
 
 /**
  * @author: 苏虎
@@ -9,12 +10,13 @@ import android.app.Application;
  * @description:
  */
 
-public class SoftwareApp extends Application{
+public class SoftwareApp extends LitePalApplication{
     private static SoftwareApp softwareApp;
 
     @Override
     public void onCreate() {
         super.onCreate();
+        LitePal.initialize(this);
         softwareApp = this;
     }
 
