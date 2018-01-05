@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DBProect.iml" filepath="$PROJECT_DIR$/DBProect.iml" />
+      <module fileurl="file://E:\AS\gitMayun\DBProect\DBProect.iml" filepath="E:\AS\gitMayun\DBProect\DBProect.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://E:\AS\gitMayun\DBProect\app\app.iml" filepath="E:\AS\gitMayun\DBProect\app\app.iml" />
     </modules>
   </component>
 </project>
